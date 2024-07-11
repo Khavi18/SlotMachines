@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
+    @State private var showingInfoView: Bool = false
     
     var body: some View {
         ZStack {
@@ -150,7 +150,7 @@ struct ContentView: View {
             .overlay(
                 //Info
                 Button(action: {
-                    print("info")
+                    self.showingInfoView = true
                 }, label: {
                     Image(systemName: "info.circle")
                 })
@@ -162,6 +162,9 @@ struct ContentView: View {
             
             //Popup
         } //: ZStack
+        .sheet(isPresented: $showingInfoView, content: {
+            InfoView()
+        })
         .padding(.top, 50)
         .ignoresSafeArea(edges: .all)
         

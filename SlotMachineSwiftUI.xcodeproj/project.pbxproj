@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498CD7C92C3F6DAA008AF0C7 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498CD7C82C3F6DAA008AF0C7 /* InfoView.swift */; };
 		49B6B0622C3D64F30031126A /* SlotMachineSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B6B0612C3D64F30031126A /* SlotMachineSwiftUIApp.swift */; };
 		49B6B0642C3D64F30031126A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B6B0632C3D64F30031126A /* ContentView.swift */; };
 		49B6B0662C3D64F40031126A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B6B0652C3D64F40031126A /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		498CD7C82C3F6DAA008AF0C7 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		49B6B05E2C3D64F30031126A /* SlotMachineSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachineSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B6B0612C3D64F30031126A /* SlotMachineSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineSwiftUIApp.swift; sourceTree = "<group>"; };
 		49B6B0632C3D64F30031126A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				49B6B0632C3D64F30031126A /* ContentView.swift */,
 				49B6B0852C3D70880031126A /* LogoView.swift */,
 				49B6B08B2C3D7E990031126A /* ReelView.swift */,
+				498CD7C82C3F6DAA008AF0C7 /* InfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498CD7C92C3F6DAA008AF0C7 /* InfoView.swift in Sources */,
 				49B6B0642C3D64F30031126A /* ContentView.swift in Sources */,
 				49B6B08A2C3D74AE0031126A /* Extensions.swift in Sources */,
 				49B6B0862C3D70880031126A /* LogoView.swift in Sources */,
